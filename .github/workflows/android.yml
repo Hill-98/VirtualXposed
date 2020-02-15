@@ -24,5 +24,5 @@ jobs:
     - name: Archive production artifacts
       uses: actions/upload-artifact@v1
       with:
-        name: compiled
-        path: VirtualApp/app/build/
+        name: vxp.apk
+        path: VirtualApp/app/build/outputs/apk/aosp/release/app-aosp-release-unsigned.apk

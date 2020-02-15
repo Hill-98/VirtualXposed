@@ -14,7 +14,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/vxp"
         android:theme="@style/LauncherTheme"
-        tools:replace="android:icon,android:label">
+        tools:replace="android:icon,android:label"
+        android:networkSecurityConfig="@xml/network_security_config">
 
         <meta-data
             android:name="android.max_aspect"
